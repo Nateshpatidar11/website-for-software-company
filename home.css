@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-evenly ;
+}
+body{
+    background-color: rgb(12, 5, 5);
+}
+/* landing page */
+.navbar{
+  
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    padding-right: 12%;
+    
+}
+.first{
+    display: flex;
+    flex-direction: row;
+   
+}
+.first a{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+.first a:hover{
+    color: orangered;
+}
+.home{
+        padding-top: 8%;
+        
+}
+.home h1{
+    font-size: 6em;
+}
+.home img{
+    width: 800px;
+    height: 800px;
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+  
+}
+.company{
+    font-size: 2em;
+}
+.homeleft h4{
+    font-size: 1.6em;
+    color: orangered;
+    margin-block: 20px;
+}
+.homeleft p{
+    font-family:serif ;
+  
+}
+.contact{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+}
+.contact:hover{
+    background-color:blue ;
+}
+/* webdesign page */
+ .webdesignleft img{
+        width: 700px;
+        height: 700px;
+        position: relative;
+        bottom: 25%;
+        right: 10%;
+}
+.webdesignright p{
+    padding-block: 20px;
+    font-size: 1.5em;
+}
+.webdesignright h1{
+    font-size: 5em;
+}
+.webdesign{
+   position: relative;
+   bottom: 20px;
+}
+/* software development */
+.ai{
+    width: 500px;
+    height:500px;
+    position: relative;
+    bottom: 25%;
+    right: 5%;
+}
+.softwaredevelopmentleft p{
+padding-block: 20px;
+font-size: 1.5em;
+}
+.softwaredevelopmentleft h1{
+font-size: 5em;
+}
+.softwaredevelopmet{
+position: relative;
+bottom: 20px;
+}
+/* footer */
+.build{
+    text-align: center;
+    color: white;
+    margin-block:10% ;
+}
+.build h2{
+    font-size: 4em;
+}
+.f{
+    font-size: 1.5em;
+    padding-block: 30px;
+}
+.buildfooter a{
+    text-decoration: none;
+    color: white;
+   margin: 10%;
+   font-size: 1.5em;
+   padding-bottom: 5%;
+}
+.last {background-color: orangered;
+    color: white;
+    font-size: .8em;
+    border-radius: 10px;
+    padding-block: .8%;
+}
+/* mobile */
+@media screen and (max-width: 900px) {
+
+    .container{
+           margin-left: 5%;
+    }
+    .navbar{
+  
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .logo{
+        width: 30px;
+        height: 30px;
+        padding-right: 12%;
+        
+    }
+    .first{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .first a{
+        margin: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    .home{
+            padding-top: 8%;
+            
+    }
+    .home h1{
+        font-size: 2em;
+    }
+    .home img{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        bottom: 10%;
+        left: 10%;
+      
+    }
+    .company{
+        font-size: 1em;
+    }
+    .homeleft h4{
+        font-size: 1em;
+        color: orangered;
+        margin-block: 20px;
+    }
+    .homeleft p{
+        font-family:serif ;
+        font-size: 10px;
+      
+    }
+    .contact{
+        margin-top: 30px;
+        margin-left: 30px;
+        padding: 5px;
+        background-color: orangered;
+        color: white;
+    }
+/* next */
+
+.webdesignleft img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    
+}
+.webdesignright p{
+padding-block: 10px;
+font-size: .7em;
+}
+.webdesignright h1{
+font-size: 2em;
+}
+.webdesign{
+    padding-top: 15%;
+    padding-bottom: 15%;
+position: relative;
+bottom: 20px;
+}
+/* second */
+.ai{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    
+}
+.softwaredevelopmentleft p{
+padding-block: 10px;
+font-size: .7em;
+}
+.softwaredevelopmentleft h1{
+font-size: 2em;
+}
+.softwaredevelopmet{
+    padding-top: 15%;
+    padding-bottom: 15%;
+position: relative;
+bottom: 20px;
+}
+/* footer */
+.build{
+    text-align: center;
+    color: white;
+    margin-block:30% ;
+}
+.build h2{
+    font-size: 1.5em;
+}
+.f{
+    font-size: 1em;
+    padding-block: 30px;
+}
+.buildfooter a{
+    text-decoration: none;
+    color: white;
+   margin: 4%;
+   font-size: 1em;
+   padding-bottom: 5%;
+}
+.last {background-color: orangered;
+    color: white;
+    font-size: .8em;
+    border-radius: 10px;
+    padding-block: .8%;
+}
+
+
+
+
+
+
+
+
+}
